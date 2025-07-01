@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chillé - Application découverte d'événements chill en Afrique" />
+  <meta property="og:title" content="Chillé - Vis ta vibe, vis ton Afrique" />
+  <meta property="og:description" content="Découvre les meilleurs événements chill en Afrique, réserve et paie via Mobile Money." />
+  <meta property="og:image" content="assets/chille-preview.png" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <title>Chillé - Vis ta vibe, vis ton Afrique</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Header -->
+  <header class="text-center py-10 bg-gradient-to-r from-purple-600 via-pink-500 to-red-500">
+    <h1 class="text-4xl md:text-6xl font-bold">CHILLÉ</h1>
+    <p class="mt-3 text-lg md:text-2xl">Vis ta vibe, vis ton Afrique.</p>
+    <a href="https://wa.me/22968594844" class="inline-block mt-6 bg-white text-gray-900 font-bold px-6 py-3 rounded-full hover:bg-gray-200 transition">Rejoindre le groupe testeurs</a>
+  </header>
+
+  <!-- À propos -->
+  <section class="py-12 px-6 md:px-24 text-center">
+    <h2 class="text-3xl font-semibold mb-4">Une appli pour les vrais chilleurs</h2>
+    <p class="text-lg text-gray-300">CHILLÉ est l'application mobile qui connecte les jeunes africains à tous les événements chill autour d'eux : concerts, soirées, beach parties, festivals et plus encore. Explore, réserve, paie via Mobile Money et kiffe ta vibe !</p>
+  </section>
+
+  <!-- Fonctionnalités -->
+  <section class="bg-gray-800 py-12 px-6 md:px-24">
+    <h2 class="text-3xl font-semibold text-center mb-10">Fonctionnalités principales</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="text-center">
+        <i class="fas fa-map-marker-alt text-pink-400 text-4xl"></i>
+        <h3 class="text-xl font-bold mt-3">Localise les événements</h3>
+        <p class="text-gray-300">Voir les événements autour de toi avec la géolocalisation.</p>
+      </div>
+      <div class="text-center">
+        <i class="fas fa-ticket-alt text-pink-400 text-4xl"></i>
+        <h3 class="text-xl font-bold mt-3">Réserve & paie</h3>
+        <p class="text-gray-300">Achète tes billets directement par Mobile Money (Moov, MTN...)</p>
+      </div>
+      <div class="text-center">
+        <i class="fas fa-robot text-pink-400 text-4xl"></i>
+        <h3 class="text-xl font-bold mt-3">Assistant IA</h3>
+        <p class="text-gray-300">Laisse LEGBA Bernard S. t’aider à chaque étape, 24h/24 !</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dev info -->
+  <section class="py-12 px-6 md:px-24 text-center">
+    <h2 class="text-3xl font-semibold mb-4">Développé par LEGBA Bernard S.</h2>
+    <p class="text-gray-300">Étudiant développeur à l'IFRI - Université d’Abomey-Calavi</p>
+    <p class="text-gray-400">Email : <a href="mailto:grecben4@gmail.com" class="underline">grecben4@gmail.com</a> | WhatsApp : <a href="https://wa.me/22968594844" class="underline">+229 68 59 48 44</a></p>
+    <p class="text-gray-400 mt-2">Suivre sur :
+      <a href="https://www.instagram.com/chille.africa" class="underline ml-1">Instagram</a> |
+      <a href="https://www.tiktok.com/@chilleapp" class="underline ml-1">TikTok</a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-gray-500 py-6 bg-gray-800
